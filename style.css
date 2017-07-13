@@ -568,25 +568,25 @@ input {
 }
 
 .date-select-day {
-  width: 45px;
+  min-width: 45px;
   display: inline-block;
   border-radius: 5px;
 }
 
 .date-select-month {
-  width: 120px;
+  width: 110px;
   display: inline-block;
   border-radius: 5px;
 }
 
 .date-select-year {
-  width: 65px;
+  min-width: 65px;
   display: inline-block;
   border-radius: 5px;
 }
 
 .date-select-time {
-  width: 60px;
+  min-width: 60px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 20px;
