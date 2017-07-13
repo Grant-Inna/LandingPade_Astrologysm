@@ -568,7 +568,7 @@ input {
 }
 
 .date-select-day {
-  width: 45px;
+  width: 50px;
   display: inline-block;
   border-radius: 5px;
 }
@@ -580,7 +580,7 @@ input {
 }
 
 .date-select-year {
-  width: 65px;
+  width: 70px;
   display: inline-block;
   border-radius: 5px;
 }
