@@ -693,6 +693,7 @@ input {
 }
 
 .buttons__btn {
+    text-transform: uppercase;
     display: block;
     width: 88%;
     margin: 0 auto;
@@ -709,7 +710,7 @@ input {
     color: #6d6b6b;
     width: 100%;
     padding: .1em .8em;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     margin-top: 5px;
 }
