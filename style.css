@@ -1050,7 +1050,11 @@ ul.errors li {
   /*Текст футера*/
 }
 
-@media screen and (max-device-width: 340px) and (max-device-height: 570px) {
+@media screen and (max-device-width: 340px) and (max-device-height: 570px) and (orientation: portrait) {
+  .main__inner {
+    height: auto;
+  }
+
   .form-group-name {
     margin: 0 0 10px;
   }
