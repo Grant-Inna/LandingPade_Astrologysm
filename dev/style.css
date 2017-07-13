@@ -514,7 +514,12 @@ form {
 }
 
 .date-selects {
-    text-align: center
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date-selects > div {
+    margin: 0 2px;
 }
 
 select {
@@ -875,7 +880,12 @@ ul.errors li {
 
 /*КОНЕЦ СТИЛЕЙ БИ*/
 
+@media screen and (max-device-width: 340px) and (max-device-height: 570px) {
+    .form-group-name {
+        margin: 0 0 10px;
+    }
 
+}
 @media screen and (orientation: landscape) and (min-width: 568px) and (max-height: 640px) {
     .header__inner {
         background-size: 10%;

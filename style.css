@@ -534,7 +534,22 @@ form {
 }
 
 .date-selects {
-  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.date-selects > div {
+  margin: 0 2px;
 }
 
 select {
@@ -1033,6 +1048,12 @@ ul.errors li {
   }
 
   /*Текст футера*/
+}
+
+@media screen and (max-device-width: 340px) and (max-device-height: 570px) {
+  .form-group-name {
+    margin: 0 0 10px;
+  }
 }
 
 @media (device-height: 568px)
