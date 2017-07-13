@@ -726,7 +726,6 @@ input {
 }
 
 .buttons__btn {
-  text-transform: uppercase;
   display: block;
   width: 88%;
   margin: 0 auto;
