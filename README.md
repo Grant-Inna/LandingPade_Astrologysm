@@ -1,4 +1,4 @@
 # LandingPade_Astrologysm
 Testing repo
 
-[View](https://grant-inna.github.io/LandingPade_Astrologysm/order.html)
+[View](https://grant-inna.github.io/LandingPage_Astrologysm/order.html)
